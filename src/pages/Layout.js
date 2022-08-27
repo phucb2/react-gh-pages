@@ -7,6 +7,7 @@ export default function Layout() {
                 <Link to="/home">Home</Link>
             </li>
             <li><Link to="/blog">Blogs</Link></li>
+            <li><Link to="/tictac">Game Tictac</Link></li>
         </ul>
     )
 }
