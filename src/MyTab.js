@@ -44,6 +44,10 @@ export default function BasicTabs() {
     setValue(newValue);
   };
 
+  const styleObject = {
+    
+  }
+
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>

@@ -7,6 +7,7 @@ import HomePage from './pages/Home';
 import BlogPage from './pages/Blogs';
 import Layout from './pages/Layout';
 import Board from './pages/Tictac';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/home" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage/>} />
         <Route path="/tictac" element={<Board/>} />
+        <Route path="/app" element={<App/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

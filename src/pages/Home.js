@@ -1,5 +1,11 @@
+import Showcase from "./Showcase";
+
 export default function HomePage() {
     return (
-        <h1>Home oage here</h1>
+        <>
+            <h1>Home page here</h1>
+            <Showcase />
+        </>
     )
+
 }

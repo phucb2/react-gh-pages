@@ -8,7 +8,6 @@ class ShopList extends React.Component {
   render() {
     return (
       <div className="shopping-list">
-        
         <div>
           <BasicTabs />
           <SampleImageList />
